@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: #FFF;
+}
+
+aside {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-right: 30px;
+}
+
+aside > img {
+  height: 500px;
+}
+
+header {
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+header > span {
+  font-size: 44px;
+  font-weight: bold;
+}
+
+header > span + span {
+  font-size: 16px;
+}
+
+
+button:focus, input:focus {
+  border: none;
+  outline: 0;
+}
+
+#button {
+  height: 42px;
+
+  border-radius: 5px;
+  border: none;
+
+  padding: 0 10px;
+  font-size: 18px;
+
+  background-color: #7E4A8C;
+  color:#FFF;
+
+  cursor: pointer;
+  transition: background-color .3s;
+
+  margin-left: 7px;
+}
+
+#button:hover {
+  background-color: #AC65BF;
+}
+
+#input {
+  text-align: center;
+  
+  height: 40px;
+  width: 60px;
+
+  border-radius: 5px;
+  border: none;
+
+  padding: 0 10px;
+  font-size: 18px;
+
+  border: 1px solid #7E4A8C;
+
+  transition: all .2s;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+
+  margin-top: 20px; 
+}
+
+ul li {
+  font-size: 22px;
+  text-align: center;
+
+  background-color: #DBDFE5;
+
+  width: 150px;
+
+  margin: 7px 0;
+  padding: 5px;
+  
+  border-radius: 5px;
+
+  transition: background-color .2s;
+  cursor: grab;
+}
+
+ul li:hover {
+  background-color: #B7BABF;
+}
